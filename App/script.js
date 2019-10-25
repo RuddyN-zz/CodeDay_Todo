@@ -1,6 +1,5 @@
 import { html, render} from 'https://unpkg.com/lit-html?module';
 
-let checkedItems = [];
 let todoInputValue = '';
 
 const inputOnChange = (value) => {
